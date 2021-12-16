@@ -1,0 +1,41 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: cornsilk;
+}
+
+nav a {
+    text-decoration-line: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: black;
+    
+}
+
+body{
+    background-color:crimson;
+    color: white;
+}
+
+.nav{
+    resize: horizontal;
+    padding: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    padding: 50px;
+}
+
+main p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+.footer {
+    text-align: center;
+}
